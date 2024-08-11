@@ -1,4 +1,4 @@
-package com.learnjava.springcoredemo;
+package com.learnjava.util;
 
 public interface Coach {
 
