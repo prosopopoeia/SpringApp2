@@ -13,8 +13,9 @@ public class DemoController {
     private Coach myCoach;
 
     @Autowired
-    public void setCoach(Coach theCoach) {
-        myCoach = theCoach;
+    public void setCoach(@Qualifier("baseballCoach") Coach theCoach) {
+        myCoach = theCoach
+        System.out.println("In ctor " + getClass().getSimpleName());
     }
 
     @GetMapping("/dailyworkout")
