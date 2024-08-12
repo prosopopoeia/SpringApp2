@@ -1,4 +1,4 @@
-package com.learnjava.util;
+package com.learnjava.springcoredemo.common;
 
 import org.springframework.stereotype.Component;
 
@@ -7,6 +7,6 @@ public class CricketCoach implements Coach {
     @Override
     public String getDailyWorkout() {
 
-        return "Practice Cactus";
+        return "Practice Cactus - amous";
     }
 }
